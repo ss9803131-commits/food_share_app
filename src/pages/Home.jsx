@@ -33,7 +33,7 @@ const Home = () => {
               <div className="blob blob-1 animate-float"></div>
               <div className="blob blob-2 animate-float" style={{ animationDelay: '1s' }}></div>
               <img
-                src="https://loremflickr.com/1000/600/charity,kitchen"
+                src="/images/hero_image_1777313009009.png"
                 alt="Volunteers packing food boxes"
                 className="hero-img"
               />
@@ -55,7 +55,7 @@ const Home = () => {
               <Card className="step-card" hover style={{ padding: '1.5rem', height: '100%' }}>
                 <div style={{ position: 'relative' }}>
                   <div className="step-image-wrapper">
-                    <img src="https://loremflickr.com/600/400/vegetables,market" alt="Fresh produce" className="step-photo" />
+                    <img src="/images/step1_produce_1777313024937.png" alt="Fresh produce" className="step-photo" />
                   </div>
                   <div className="step-icon-overlay">
                     <Utensils size={24} />
@@ -70,7 +70,7 @@ const Home = () => {
               <Card className="step-card" hover style={{ padding: '1.5rem', height: '100%' }}>
                 <div style={{ position: 'relative' }}>
                   <div className="step-image-wrapper">
-                    <img src="https://loremflickr.com/600/400/shelter,donation" alt="Hands holding food box" className="step-photo" />
+                    <img src="/images/step2_hands_1777313041917.png" alt="Hands holding food box" className="step-photo" />
                   </div>
                   <div className="step-icon-overlay">
                     <HeartHandshake size={24} />
@@ -85,7 +85,7 @@ const Home = () => {
               <Card className="step-card" hover style={{ padding: '1.5rem', height: '100%' }}>
                 <div style={{ position: 'relative' }}>
                   <div className="step-image-wrapper">
-                    <img src="https://loremflickr.com/600/400/delivery,truck" alt="Driver steering wheel" className="step-photo" />
+                    <img src="/images/step3_delivery_1777313059741.png" alt="Driver steering wheel" className="step-photo" />
                   </div>
                   <div className="step-icon-overlay">
                     <Truck size={24} />
@@ -108,16 +108,16 @@ const Home = () => {
           </div>
           <div className="gallery-grid">
             <div className="gallery-item animate-float" style={{ animationDelay: '0s' }}>
-              <img src="https://loremflickr.com/600/600/volunteer,sharing" alt="Authentic food donation" className="gallery-img" />
+              <img src="/images/gallery1_donation_1777313074248.png" alt="Authentic food donation" className="gallery-img" />
             </div>
             <div className="gallery-item animate-float" style={{ animationDelay: '0.5s' }}>
-              <img src="https://loremflickr.com/600/600/foodbank,boxes" alt="Volunteers stacking boxes" className="gallery-img" />
+              <img src="/images/gallery2_stacking_1777313091251.png" alt="Volunteers stacking boxes" className="gallery-img" />
             </div>
             <div className="gallery-item animate-float" style={{ animationDelay: '1s' }}>
-              <img src="https://loremflickr.com/600/600/cooking,group" alt="Sorting goods in warehouse" className="gallery-img" />
+              <img src="/images/gallery3_sorting_1777313107827.png" alt="Sorting goods in warehouse" className="gallery-img" />
             </div>
             <div className="gallery-item animate-float" style={{ animationDelay: '1.5s' }}>
-              <img src="https://loremflickr.com/600/600/community,meal" alt="Community sharing" className="gallery-img" />
+              <img src="/images/gallery4_sharing_1777313124818.png" alt="Community sharing" className="gallery-img" />
             </div>
           </div>
         </div>
